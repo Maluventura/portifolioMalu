@@ -1,0 +1,16 @@
+
+footer{
+padding-top: 30px;
+padding-bottom: 20px;
+background-color: #cf4cf0b2 ;
+display: flex;
+justify-content:space-evenly;
+  border-top: 2px solid rgb(241, 38, 214);
+}
+.imgcontact{
+
+    width:60px ;
+    height: 50px;
+
+
+}

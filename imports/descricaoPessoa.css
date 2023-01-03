@@ -1,0 +1,32 @@
+.nome{
+color: #e650c5;
+display: inline-block;
+font-size: 30px;
+font-family:'Roboto', sans-serif ;
+font-weight: bolder;
+margin-top: 20px;
+}
+.profissao{
+font-size: 20px;
+color: grey;
+font-family:'Roboto', sans-serif ;
+font-weight: bolder;
+}
+
+#descricaoPessoa{
+display: flex;
+flex-direction: row;
+max-width: 1000px;
+
+}
+.varinhaMagica1{
+        width: 80px;
+        height: 100px;
+         margin-right: 60px; 
+}
+.varinhaMagica2{
+        width: 80px;
+        height: 100px;
+        margin-left:60px; 
+}
+

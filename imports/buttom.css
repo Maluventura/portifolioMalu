@@ -1,0 +1,42 @@
+button{
+        background-color: #e650c5 ;
+        display: block;
+        height: 50px;
+        padding: 20px;
+        margin-top: 15px;
+        border-radius: 70%; 
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.437);
+        animation-name: cores;
+         animation-duration: 5s; 
+        animation-iteration-count: infinite;
+}
+ @keyframes cores{
+
+        0%{
+                background-color: #b73fd465;
+        }
+        50%{
+                background-color: #f714c6;
+        }
+        75%{
+                background-color: #f865e0d7;
+        }
+       
+    }
+    
+#contactbutton{
+        display: flex;
+        justify-content:space-evenly;        
+        background-color: #EDEAEA;
+        padding: 15px;
+}
+
+.linkbutton{
+text-decoration: none;
+
+}

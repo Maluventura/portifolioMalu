@@ -1,0 +1,91 @@
+
+@import url("/imports/buttom.css");
+@import url("/imports/projetos.css");
+@import url("/imports/barprogress.css");
+@import url("/imports/sectionSkills.css");
+@import url("/imports/skills-tec.css");
+@import url("/imports/footer.css");
+@import url("/imports/descricaoPessoa.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+header{
+        background-color: #cf4cf0b2  ;
+        height: 100px;
+        padding: 10px;
+        border-bottom: 2px solid rgb(241, 38, 214);
+  
+    }
+   
+.linksheader{
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        display: inline-flex;
+        align-items: center;
+        margin-top: 50px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolder;
+      
+}
+
+nav{
+        display: flex;
+        justify-content: center;
+        justify-content:space-evenly;
+        align-items: center;
+    
+}
+
+.linksheader::before{
+content: "";
+background-color: #eb09bacb;
+height: 5px;
+width: 5px;
+padding: 2px;
+margin-right: 15px;
+}
+main{
+        background-color: #EDEAEA;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+      
+}
+        #apresentacao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 700px;
+        }
+        
+#miniatura{
+height: 200px;
+width: 200px;
+
+}
+
+        .historia{
+               font-family:'Roboto', sans-serif;
+               font-size:20px ;
+                font-weight: 300;
+                text-align: justify;
+               line-height: 25px;
+               letter-spacing: 1px;
+                text-indent: 50px;
+                 flex-wrap: wrap;
+                 margin-top: 15px;
+        }
+
+
+
+
+

@@ -1,0 +1,22 @@
+
+#sessaoPrincipal{
+    background-color:#e3a4e9;
+    padding-top: 30px;
+}
+
+.main-title{
+text-align: center;
+color: white;
+font-size: 35px;
+font-family:'Roboto', sans-serif ;
+font-weight: bolder;
+padding-top: 10px;
+}
+#alinhar{
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+}
+
